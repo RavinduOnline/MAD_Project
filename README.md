@@ -14,9 +14,11 @@ There are four main functionalities we identified in this system
 
 Team Infinity Members -
 
-* Ravindu Rasanga
-* Sudhari Sandamini
-* Yasiru Paduka
-* Thilina Nanayakkara 
+* IT20189730 - Silva K.R.R
+* IT20049218 - Perera T.A.S.S.
+* IT20162382 - Bandara M.A.Y.P.W
+* IT20164980 - Nanayakkara N.G.V.A.T.C
+
+
 
 
