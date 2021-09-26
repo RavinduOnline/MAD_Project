@@ -12,8 +12,8 @@ There are four main functionalities we identified in this system
 •	Manage Payment and shipping
 •	Manage Rate Product
 
-Team Infinity 
--  Members -
+Team Infinity Members -
+
 * Ravindu Rasanga
 * Sudhari Sandamini
 * Yasiru Paduka
