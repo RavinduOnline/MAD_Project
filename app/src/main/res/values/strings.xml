@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">MAD_Project02</string>
+    <string name="backgroundyelloimg">BackgroundYelloImg</string>
+    <string name="shipdbackaroow">ShipDbackAroow</string>
+    <string name="shipping_detailsTitle">Shipping Details</string>
+    <string name="ShipDNameTag">Name</string>
+    <string name="ShipDNameField">Name</string>
+    <string name="shipdmobilenumberfild">ShipDMobileNumberFild</string>
+    <string name="_076_456_6754">076-456-6754</string>
+    <string name="ShipDmobile_number">Mobile Number</string>
+    <string name="house_apartment_no">House/Apartment No</string>
+    <string name="shipdhousenotag">shipdHouseNoTag</string>
+    <string name="_412_a">412/A</string>
+    <string name="address_line_1">Address Line 1</string>
+    <string name="line_1">Line 1</string>
+    <string name="address_line_2">address line 2</string>
+    <string name="adress_line_2">Address Line 2</string>
+    <string name="line_2">Line 2</string>
+    <string name="city">City</string>
+    <string name="province">Province</string>
+
+    //Spinner Dropdown
+    <string name="ShipD_Province_Dropdown">Select Province</string>
+    <string name="cost_bg_bar">Cost Bg Bar</string>
+    <string name="shipd_cost_tag">shipD cost tag</string>
+    <string name="shipping_cost">Shipping Cost</string>
+    <string name="_290_00">290.00</string>
+    <string name="shipd_rs_tag">ShipD Rs tag</string>
+    <string name="rs">Rs.</string>
+    <string name="checkout">Checkout</string>
+    <string name="ship_dc_heckout_but">Ship DC heckout But</string>
+    <string name="confirm">Confirm</string>
+    <string name="edit">Edit</string>
+    <string name="rs_290_00">Rs.290.00</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="adress_line_1">Adress Line 1</string>
+    <string name="adress_line_3">Adress Line 2</string>
+    <string name="payment_methods">Payment Methods</string>
+    <string name="if_you_are_a_covid_19_patient_please_use_the_card_payment_option">If you are a COVID-19 patient, please use the card payment option.</string>
+    <string name="card_payment">Card Payment</string>
+    <string name="card_number">Card Number</string>
+    <string name="cvv">CVV</string>
+    <string name="xxx">XXX</string>
+    <string name="expire_date">Expire Date</string>
+    <string name="card_type">Card Type</string>
+    <string name="xxxx_xxxx_xxxx_xxxx">XXXX-XXXX-XXXX-XXXX</string>
+    <string name="mm_yy">MM/YY</string>
+    <string name="confirmationTitle">Confirmation</string>
+    <string name="order_placed">Order Placed</string>
+    <string name="thank_you">Thank You</string>
+    <string name="confirmation_img">Confirmation Img</string>
+    <string name="your_order_will_be_delivered_within_3_working_days">Your order will be delivered within 3 working days.</string>
+    <string name="if_you_are_a_covid_19_patient_please_follow_the_relevant_health_instructions">If you are a COVID-19 patient please follow the relevant health instructions.</string>
+    <string name="back_to_home">Back to Home</string>
+    <string name="order_placed2">Order Placed !</string>
+    <string name="string_order_placed2" />
+    <string name="city1">City</string>
+    <string name="mobile_number1">Mobile Number</string>
+    <string name="name">Name</string>
+    <string name="house_no">House No</string>
+    <string name="address_line_11">Address Line 1</string>
+    <string name="address_line_22">Address Line 2</string>
+    <string name="province1">Province</string>
+    <string name="update">UPDATE</string>
+    <string name="bill">BILL</string>
+    <string name="sub_total">Sub Total</string>
+    <string name="shipping_cost1">Shipping Cost</string>
+    <string name="total">Total</string>
+    <string name="shipping_details_edit">Shipping Details Edit</string>
+    <string-array name="Province">
+        <item>Central Province</item>
+        <item>Eastern Province</item>
+        <item>North Central Province</item>
+        <item>Northern Province</item>
+        <item>North Western Province</item>
+        <item>Sabaragamuwa Province</item>
+        <item>Sothern Province</item>
+        <item>Uva Province</item>
+        <item>Western Province</item>
+    </string-array>
+
+    <string-array name="CardType">
+        <item>Visa</item>
+        <item>Master</item>
+        <item>American Express</item>
+    </string-array>
+</resources>

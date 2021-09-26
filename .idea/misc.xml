@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/custom_input.xml" value="0.20701754385964913" />
+        <entry key="app/src/main/res/drawable/final_covid19_notice.xml" value="0.270995670995671" />
+        <entry key="app/src/main/res/drawable/notice_box.xml" value="0.27456140350877195" />
+        <entry key="app/src/main/res/layout/activity_bill.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_card_payment.xml" value="0.2509090909090909" />
+        <entry key="app/src/main/res/layout/activity_order_confirmation.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_payment_methods.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_ship_dedit.xml" value="0.2802467706231346" />
+        <entry key="app/src/main/res/layout/activity_shipping_details.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_shipping_details_confirm.xml" value="0.20045209622083884" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

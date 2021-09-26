@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.teaminfinity.mad_project02">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MAD_Project02">
+        <activity
+            android:name=".Bill"
+            android:exported="true" />
+        <activity
+            android:name=".OrderConfirmation"
+            android:exported="true" />
+        <activity
+            android:name=".CardPayment"
+            android:exported="true" />
+        <activity
+            android:name=".PaymentMethods"
+            android:exported="true" />
+        <activity
+            android:name=".ShipDEdit"
+            android:exported="true" />
+        <activity
+            android:name=".shipping_details_confirm"
+            android:exported="true" />
+        <activity
+            android:name=".ShippingDetails"
+            android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
