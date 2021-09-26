@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Sudhari/Document/MAD_Project012/app/src/main/res/layout/PayCompleteditem1.xml" value="0.1" />
+        <entry key="..\:/Sudhari/Document/MAD_Project012/app/src/main/res/layout/activity_add_rate.xml" value="0.4466666666666667" />
+        <entry key="..\:/Sudhari/Document/MAD_Project012/app/src/main/res/layout/activity_product_page.xml" value="0.1513157894736842" />
+        <entry key="..\:/Sudhari/Document/MAD_Project012/app/src/main/res/layout/activity_rating_bar.xml" value="0.1513157894736842" />
+        <entry key="..\:/Sudhari/Document/MAD_Project012/app/src/main/res/layout/activity_review_main_page.xml" value="0.16666666666666666" />
+        <entry key="..\:/Sudhari/Document/MAD_Project012/app/src/main/res/layout/activity_review_project.xml" value="0.25" />
+        <entry key="..\:/Sudhari/Document/MAD_Project012/app/src/main/res/layout/item.xml" value="0.22" />
+        <entry key="..\:/Sudhari/Document/MAD_Project012/app/src/main/res/layout/payCompleteditem1.xml" value="0.1513157894736842" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

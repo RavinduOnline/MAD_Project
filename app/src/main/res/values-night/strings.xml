@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ToBeReviewed">To Be Reviewed</string>
+    <string name="cross_infinity_with_every_steps_meet_eternity_in_every_second">Cross infinity with every steps meet eternity in every second</string>
+    <string name="barLine">-----------------------------------</string>
+    <string name="Systemlogo">Logo</string>
+    <string name="how_accurate_the_product_discription">How accurate the product discription?</string>
+    <string name="star5">star5</string>
+    <string name="star4">star4</string>
+    <string name="star3">star3</string>
+    <string name="star2">star2</string>
+    <string name="star1">star1</string>
+    <string name="post">Post</string>
+    <string name="reviewTxt">Review</string>
+    <string name="to_be_reviewedBTN">To Be Reviewed</string>
+    <string name="thank_you_for_your_rate">Thank you for Your Rate</string>
+    <string name="deletebtn">deleteBtn</string>
+    <string name="rate">Rate</string>
+    <string name="thank_you_for_your_rate1">Thank you for your Rate</string>
+    <string name="rate1">Rate</string>
+    <string name="complete_rate">Complete Rate</string>
+    <string name="starview3">StarView3</string>
+    <string name="starview4">StarView4</string>
+    <string name="starview11">StarView11</string>
+    <string name="starview9">StarView9</string>
+    <string name="starview10">StarView10</string>
+    <string name="starview15">StarView15</string>
+    <string name="starview14">StarView14</string>
+    <string name="starview1">StarView1</string>
+    <string name="starview12">StarView12</string>
+    <string name="starview13">StarView13</string>
+    <string name="starview8">StarView8</string>
+    <string name="starview7">StarView7</string>
+    <string name="starview6">StarView6</string>
+    <string name="starview5">StarView5</string>
+    <string name="starview2">StarView2</string>
+</resources>

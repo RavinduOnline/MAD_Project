@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReviewMainPage"
+    tools:layout_editor_absoluteX="35dp"
+    tools:layout_editor_absoluteY="11dp">
+
+    <ImageView
+        android:id="@+id/itemImage4"
+        android:layout_width="85dp"
+        android:layout_height="71dp"
+        android:contentDescription="@string/itempic1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.084"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itemImage3"
+        app:layout_constraintVertical_bias="0.456"
+        app:srcCompat="@android:drawable/ic_menu_gallery"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/starView11"
+        android:layout_width="19dp"
+        android:layout_height="19dp"
+        android:contentDescription="@string/starview11"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/itemDis3"
+        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itemImage4"
+        app:layout_constraintVertical_bias="0.111"
+        app:srcCompat="@drawable/star_btn"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/starView12"
+        android:layout_width="19dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/starview12"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/itemDis3"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toEndOf="@+id/starView11"
+        app:layout_constraintTop_toBottomOf="@+id/itemImage4"
+        app:layout_constraintVertical_bias="0.014"
+        app:srcCompat="@drawable/star_btn"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/starView13"
+        android:layout_width="19dp"
+        android:layout_height="19dp"
+        android:contentDescription="@string/starview13"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/itemDis3"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toEndOf="@+id/starView12"
+        app:layout_constraintTop_toBottomOf="@+id/itemImage4"
+        app:layout_constraintVertical_bias="0.111"
+        app:srcCompat="@drawable/star_btn"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/starView14"
+        android:layout_width="19dp"
+        android:layout_height="19dp"
+        android:contentDescription="@string/starview14"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/itemDis3"
+        app:layout_constraintHorizontal_bias="0.294"
+        app:layout_constraintStart_toEndOf="@+id/starView15"
+        app:layout_constraintTop_toBottomOf="@+id/itemImage4"
+        app:layout_constraintVertical_bias="0.111"
+        app:srcCompat="@drawable/star_btn"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/starView15"
+        android:layout_width="19dp"
+        android:layout_height="19dp"
+        android:contentDescription="@string/starview15"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/itemDis3"
+        app:layout_constraintHorizontal_bias="0.121"
+        app:layout_constraintStart_toEndOf="@+id/starView13"
+        app:layout_constraintTop_toBottomOf="@+id/itemImage4"
+        app:layout_constraintVertical_bias="0.111"
+        app:srcCompat="@drawable/star_btn"
+        tools:ignore="ImageContrastCheck" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/thankBar1"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:background="#6A6767"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.245"
+        app:layout_constraintStart_toEndOf="@+id/itemImage"
+        app:layout_constraintTop_toBottomOf="@+id/itemDis1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/thankText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/rate"
+        android:text="@string/thank_you_for_your_rate1"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/thankBar1"
+        app:layout_constraintEnd_toEndOf="@+id/thankBar1"
+        app:layout_constraintStart_toStartOf="@+id/thankBar1"
+        app:layout_constraintTop_toTopOf="@+id/thankBar1" />
+
+    <ImageView
+        android:id="@+id/bg"
+        android:layout_width="224dp"
+        android:layout_height="225dp"
+        android:contentDescription="@string/background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/dec3"
+        tools:ignore="ImageContrastCheck" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="418dp"
+        android:layout_height="66dp"
+        android:background="#C5C5C5"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/back"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.444"
+        app:srcCompat="@drawable/right_arrowiconfinal"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/PageTopic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/reviewTxt"
+        android:text="@string/reviewTxt"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar"
+        app:layout_constraintStart_toStartOf="@+id/toolbar"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="@dimen/alpha"
+        android:background="@null"
+        android:contentDescription="@string/homeBTN"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/cart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.026"
+        app:srcCompat="@drawable/home_button_for_interface_btn__1_" />
+
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="41dp"
+        android:layout_height="46dp"
+        android:alpha="@dimen/alpha"
+        android:contentDescription="@string/profileBtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.363"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.026"
+        app:srcCompat="@drawable/user_btn" />
+
+    <ImageButton
+        android:id="@+id/cart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="@dimen/alpha"
+        android:background="@null"
+        android:contentDescription="@string/cartbtn"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/profile"
+        app:layout_constraintHorizontal_bias="0.875"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.026"
+        app:srcCompat="@drawable/shopping_cartbtn" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="198dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#4CAF50"
+        android:onClick="ToBeRevievedBtn"
+        android:text="@string/to_be_reviewedBTN"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.384"
+        app:layout_constraintStart_toEndOf="@+id/profile"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.038" />
+
+    <ImageView
+        android:id="@+id/itemImage"
+        android:layout_width="85dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="112dp"
+        android:contentDescription="@string/itempic1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.084"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.006"
+        app:srcCompat="@android:drawable/ic_menu_gallery"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/itemImage3"
+        android:layout_width="85dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="72dp"
+        android:contentDescription="@string/itempic1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itemImage"
+        app:layout_constraintVertical_bias="0.087"
+        app:srcCompat="@android:drawable/ic_menu_gallery"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/starView10"
+        android:layout_width="19dp"
+        android:layout_height="19dp"
+        android:contentDescription="@string/starview10"
+        app:layout_constraintBottom_toTopOf="@+id/itemImage4"
+        app:layout_constraintEnd_toStartOf="@+id/itemDis2"
+        app:layout_constraintHorizontal_bias="0.285"
+        app:layout_constraintStart_toEndOf="@+id/starView9"
+        app:layout_constraintTop_toBottomOf="@+id/itemImage3"
+        app:layout_constraintVertical_bias="0.11"
+        app:srcCompat="@drawable/star_btn"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/starView9"
+        android:layout_width="19dp"
+        android:layout_height="19dp"
+        android:contentDescription="@string/starview9"
+        app:layout_constraintBottom_toTopOf="@+id/itemImage4"
+        app:layout_constraintEnd_toStartOf="@+id/itemDis2"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintStart_toEndOf="@+id/starView8"
+        app:layout_constraintTop_toBottomOf="@+id/itemImage3"
+        app:layout_constraintVertical_bias="0.11"
+        app:srcCompat="@drawable/star_btn"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/starView8"
+        android:layout_width="19dp"
+        android:layout_height="19dp"
+        android:contentDescription="@string/starview8"
+        app:layout_constraintBottom_toTopOf="@+id/itemImage4"
+        app:layout_constraintEnd_toStartOf="@+id/itemDis2"
+        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintStart_toEndOf="@+id/starView7"
+        app:layout_constraintTop_toBottomOf="@+id/itemImage3"
+        app:layout_constraintVertical_bias="0.11"
+        app:srcCompat="@drawable/star_btn"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/starView7"
+        android:layout_width="19dp"
+        android:layout_height="19dp"
+        android:contentDescription="@string/starview7"
+        app:layout_constraintBottom_toTopOf="@+id/itemImage4"
+        app:layout_constraintEnd_toStartOf="@+id/itemDis2"
+        app:layout_constraintHorizontal_bias="0.072"
+        app:layout_constraintStart_toEndOf="@+id/starView6"
+        app:layout_constraintTop_toBottomOf="@+id/itemImage3"
+        app:layout_constraintVertical_bias="0.11"
+        app:srcCompat="@drawable/star_btn"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/starView6"
+        android:layout_width="19dp"
+        android:layout_height="19dp"
+        android:contentDescription="@string/starview6"
+        app:layout_constraintBottom_toTopOf="@+id/itemImage4"
+        app:layout_constraintEnd_toStartOf="@+id/itemDis2"
+        app:layout_constraintHorizontal_bias="0.025"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itemImage3"
+        app:layout_constraintVertical_bias="0.11"
+        app:srcCompat="@drawable/star_btn"
+        tools:ignore="ImageContrastCheck" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/itemDis1"
+        android:layout_width="250dp"
+        android:layout_height="135dp"
+        android:layout_marginEnd="2dp"
+        android:background="#C5C5C5"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toEndOf="@+id/itemImage"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.233" />
+
+    <TextView
+        android:id="@+id/itemName1"
+        android:layout_width="244dp"
+        android:layout_height="53dp"
+        android:text="@string/toshiba_electronic_device_storage"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/itemDis1"
+        app:layout_constraintEnd_toEndOf="@+id/itemDis1"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/itemDis1"
+        app:layout_constraintTop_toTopOf="@+id/itemDis1"
+        app:layout_constraintVertical_bias="0.048" />
+
+    <TextView
+        android:id="@+id/ProductDis1"
+        android:layout_width="240dp"
+        android:layout_height="72dp"
+        android:layout_marginEnd="4dp"
+        android:text="@string/naierdi_1_24pcs_self_adhesive_furniture_leg_feet_rug_felt_pads_anti_slip_mat_bumper_damper_for_chair_table_protector_hardware"
+        android:textAlignment="viewStart"
+        android:textColor="#424242"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/itemDis1"
+        app:layout_constraintEnd_toEndOf="@+id/itemDis1"
+        app:layout_constraintTop_toBottomOf="@+id/itemName1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/itemDis2"
+        android:layout_width="250dp"
+        android:layout_height="135dp"
+        android:background="#C5C5C5"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.805"
+        app:layout_constraintStart_toEndOf="@+id/itemImage3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.523" />
+
+    <TextView
+        android:id="@+id/itemName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/itemName"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/itemDis2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/itemDis2"
+        app:layout_constraintTop_toTopOf="@+id/itemDis2"
+        app:layout_constraintVertical_bias="0.018" />
+
+    <TextView
+        android:id="@+id/ProductDis2"
+        android:layout_width="250dp"
+        android:layout_height="72dp"
+        android:text="@string/naierdi_1_24pcs_self_adhesive_furniture_leg_feet_rug_felt_pads_anti_slip_mat_bumper_damper_for_chair_table_protector_hardware"
+        android:textAlignment="viewStart"
+        android:textColor="#424242"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/itemDis2"
+        app:layout_constraintEnd_toEndOf="@+id/itemDis2"
+        app:layout_constraintTop_toTopOf="@+id/itemDis2"
+        app:layout_constraintVertical_bias="0.73" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/thankBar2"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:background="#6A6767"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.283"
+        app:layout_constraintStart_toEndOf="@+id/itemImage3"
+        app:layout_constraintTop_toBottomOf="@+id/itemDis2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/thankText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/rate1"
+        android:text="@string/thank_you_for_your_rate2"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/thankBar2"
+        app:layout_constraintEnd_toEndOf="@+id/thankBar2"
+        app:layout_constraintStart_toStartOf="@+id/thankBar2"
+        app:layout_constraintTop_toTopOf="@+id/thankBar2" />
+
+    <ImageButton
+        android:id="@+id/deleteButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:background="@null"
+        android:contentDescription="@string/deletebtn"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:onClick="DeleteRateBtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.846"
+        app:layout_constraintStart_toEndOf="@+id/thankBar1"
+        app:layout_constraintTop_toBottomOf="@+id/itemDis1"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@android:drawable/ic_menu_delete"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/deleteButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:background="@null"
+        android:contentDescription="@string/deletebtn2"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/thankBar2"
+        app:layout_constraintTop_toBottomOf="@+id/itemDis2"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@android:drawable/ic_menu_delete"
+        tools:ignore="ImageContrastCheck" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/itemDis3"
+        android:layout_width="250dp"
+        android:layout_height="135dp"
+        android:background="#C5C5C5"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.794"
+        app:layout_constraintStart_toEndOf="@+id/itemImage4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.818" />
+
+    <TextView
+        android:id="@+id/itemName3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/itemName"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/itemDis3"
+        app:layout_constraintEnd_toEndOf="@+id/itemDis3"
+        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintStart_toStartOf="@+id/itemDis3"
+        app:layout_constraintTop_toTopOf="@+id/itemDis3"
+        app:layout_constraintVertical_bias="0.074" />
+
+    <TextView
+        android:id="@+id/productDis3"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:text="@string/rohwxy_poly_uv_gel_for_manicure_30_15ml_nail_uv_gel_for_extension_color_nail_gel_for_nails_art_painting_gel_nail_art_enamel"
+        android:textAlignment="viewStart"
+        android:textColor="#424242"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/itemDis3"
+        app:layout_constraintEnd_toEndOf="@+id/itemDis3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/itemDis3"
+        app:layout_constraintTop_toTopOf="@+id/itemDis3"
+        app:layout_constraintVertical_bias="0.676" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/thankBar3"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:background="#6A6767"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.727"
+        app:layout_constraintStart_toEndOf="@+id/itemImage4"
+        app:layout_constraintTop_toBottomOf="@+id/itemDis3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/thankText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/rate1"
+        android:text="@string/complete_rate"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/thankBar3"
+        app:layout_constraintEnd_toEndOf="@+id/thankBar3"
+        app:layout_constraintStart_toStartOf="@+id/thankBar3"
+        app:layout_constraintTop_toBottomOf="@+id/itemDis3" />
+
+    <ImageView
+        android:id="@+id/starView1"
+        android:layout_width="19dp"
+        android:layout_height="19dp"
+        android:contentDescription="@string/starview1"
+        app:layout_constraintBottom_toTopOf="@+id/itemImage3"
+        app:layout_constraintEnd_toStartOf="@+id/itemDis1"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itemImage"
+        app:layout_constraintVertical_bias="0.099"
+        app:srcCompat="@drawable/star_btn"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/starView2"
+        android:layout_width="19dp"
+        android:layout_height="19dp"
+        android:contentDescription="@string/starview2"
+        app:layout_constraintBottom_toTopOf="@+id/itemImage3"
+        app:layout_constraintEnd_toStartOf="@+id/itemDis1"
+        app:layout_constraintHorizontal_bias="0.077"
+        app:layout_constraintStart_toEndOf="@+id/starView1"
+        app:layout_constraintTop_toBottomOf="@+id/itemImage"
+        app:layout_constraintVertical_bias="0.099"
+        app:srcCompat="@drawable/star_btn"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/starView3"
+        android:layout_width="19dp"
+        android:layout_height="19dp"
+        android:contentDescription="@string/starview3"
+        app:layout_constraintBottom_toTopOf="@+id/itemImage3"
+        app:layout_constraintEnd_toStartOf="@+id/itemDis1"
+        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintStart_toEndOf="@+id/starView2"
+        app:layout_constraintTop_toBottomOf="@+id/itemImage"
+        app:layout_constraintVertical_bias="0.099"
+        app:srcCompat="@drawable/star_btn"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/starView5"
+        android:layout_width="19dp"
+        android:layout_height="19dp"
+        android:contentDescription="@string/starview5"
+        app:layout_constraintBottom_toTopOf="@+id/itemImage3"
+        app:layout_constraintEnd_toStartOf="@+id/itemDis1"
+        app:layout_constraintHorizontal_bias="0.352"
+        app:layout_constraintStart_toEndOf="@+id/starView4"
+        app:layout_constraintTop_toBottomOf="@+id/itemImage"
+        app:layout_constraintVertical_bias="0.099"
+        app:srcCompat="@drawable/star_btn"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/starView4"
+        android:layout_width="19dp"
+        android:layout_height="19dp"
+        android:contentDescription="@string/starview4"
+        app:layout_constraintBottom_toTopOf="@+id/itemImage3"
+        app:layout_constraintEnd_toStartOf="@+id/itemDis1"
+        app:layout_constraintHorizontal_bias="0.148"
+        app:layout_constraintStart_toEndOf="@+id/starView3"
+        app:layout_constraintTop_toBottomOf="@+id/itemImage"
+        app:layout_constraintVertical_bias="0.099"
+        app:srcCompat="@drawable/star_btn"
+        tools:ignore="ImageContrastCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
