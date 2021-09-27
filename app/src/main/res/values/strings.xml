@@ -72,5 +72,7 @@
     <string name="itemname">ItemName</string>
     <string name="description">Description</string>
     <string name="Itemname">Itemname</string>
+    <string name="detailed_img">detailed_img</string>
+    <string name="detailedImg">detailedImg</string>
 
 </resources>

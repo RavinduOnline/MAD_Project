@@ -1,6 +1,11 @@
 package com.infinity.mad_project01;
 
-public class PaymentComplete {
+import android.content.Intent;
+import android.view.View;
+
+import java.io.Serializable;
+
+public class PaymentComplete implements Serializable {
 
     String productName, productDescription;
 
@@ -28,4 +33,6 @@ public class PaymentComplete {
     public void setProductDescription(String productDescription) {
         this.productDescription = productDescription;
     }
+
+
 }

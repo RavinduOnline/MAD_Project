@@ -12,6 +12,7 @@ import android.util.Log;
 import android.view.View;
 
 import com.google.firebase.firestore.DocumentChange;
+import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.EventListener;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.FirebaseFirestoreException;
@@ -51,8 +52,9 @@ public class ReviewProject extends AppCompatActivity {
     }
 
     private void EventChangeListener() {
-        db.collection("products").orderBy("ItemName", Query.Direction.ASCENDING)
+        db.collection("products").orderBy("productName", Query.Direction.ASCENDING)
                 .addSnapshotListener(new EventListener<QuerySnapshot>() {
+                    DocumentReference documentReference;
                     @Override
                     public void onEvent(@Nullable QuerySnapshot value, @Nullable FirebaseFirestoreException error) {
 
@@ -83,15 +85,17 @@ public class ReviewProject extends AppCompatActivity {
     public void BackArrow(View view) {
         Intent intent1 = new Intent(ReviewProject.this, ReviewMainPage.class);
         startActivity(intent1);
+        finish();
     }
 
-    /*public void RateBtn(View view) {
-        Intent intent1 = new Intent(ReviewProject.this, AddRate.class);
-        startActivity(intent1);
+    public void RateBtn(View view) {
+        Intent intent2 = new Intent(ReviewProject.this, AddRateMainActivity.class);
+        startActivity(intent2);
     }
 
     public void CloseBtn(View view) {
-        Intent intent1 = new Intent(ReviewProject.this, ReviewMainPage.class);
-        startActivity(intent1);
-    }*/
+        Intent intent3 = new Intent(ReviewProject.this, ReviewMainPage.class);
+        startActivity(intent3);
+        finish();
+    }
 }

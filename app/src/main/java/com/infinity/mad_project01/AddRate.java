@@ -47,7 +47,7 @@ public class AddRate extends AppCompatActivity {
         PostBtn = findViewById(R.id.Post);
 
         itemName1= findViewById(R.id.itemName1);
-        ProductDis1=findViewById(R.id.ProductDis1);
+        ProductDis1=findViewById(R.id.ProductDis);
 
         RetiriewData();
 
