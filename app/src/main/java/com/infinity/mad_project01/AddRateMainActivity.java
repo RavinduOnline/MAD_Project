@@ -13,6 +13,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.DocumentReference;
@@ -45,7 +47,6 @@ public class AddRateMainActivity extends AppCompatActivity {
         fStore = FirebaseFirestore.getInstance();
         auth = FirebaseAuth.getInstance();
 
-
         final Object object = getIntent().getSerializableExtra("detail");
         if(object instanceof PaymentComplete){
             paymentComplete = (PaymentComplete) object;
@@ -69,7 +70,8 @@ public class AddRateMainActivity extends AppCompatActivity {
 
         PostBtn.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
+            public void onClick(View view)
+            {
                 PostedRate();
             }
         });
@@ -113,15 +115,20 @@ public class AddRateMainActivity extends AppCompatActivity {
         RateMap.put("currentDate", saveCurrentDate);
         RateMap.put("currentTime", saveCurrentTime);
         RateMap.put("rateStar", rateValue);
-        RateMap.put("rDescription", ProductDis.getText().toString());
+        RateMap.put("rDescription", RateDis.getText().toString());
 
 
-        fStore.collection("Rate").document(auth.getCurrentUser().getUid())
-                .collection("CurrentUser").add(RateMap).addOnCompleteListener(new OnCompleteListener<DocumentReference>() {
+        fStore.collection("Rate").add(RateMap).addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
             @Override
-            public void onComplete(@NonNull Task<DocumentReference> task) {
-                Toast.makeText(AddRateMainActivity.this, "Rate Successfully added!",Toast.LENGTH_SHORT).show();
+            public void onSuccess(DocumentReference documentReference) {
+                Toast.makeText(AddRateMainActivity.this, "Rate Successfully added!", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(getApplicationContext(), ReviewMainPage.class));
                 finish();
+            }
+        }).addOnFailureListener(new OnFailureListener() {
+            @Override
+            public void onFailure(@NonNull Exception e) {
+                Toast.makeText(AddRateMainActivity.this, e.getMessage(), Toast.LENGTH_SHORT).show();
             }
         });
     }

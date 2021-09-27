@@ -1,28 +1,27 @@
 package com.infinity.mad_project01;
 
-//import androidx.annotation.NonNull;
-//import androidx.annotation.Nullable;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-//import com.google.android.gms.tasks.OnFailureListener;
-//import com.google.android.gms.tasks.OnSuccessListener;
-//import com.google.firebase.firestore.DocumentReference;
-//import com.google.firebase.firestore.DocumentSnapshot;
-//import com.google.firebase.firestore.EventListener;
-//import com.google.firebase.firestore.FirebaseFirestore;
-//import com.google.firebase.firestore.FirebaseFirestoreException;
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.firebase.firestore.DocumentReference;
+import com.google.firebase.firestore.DocumentSnapshot;
+import com.google.firebase.firestore.EventListener;
+import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.FirebaseFirestoreException;
 
-//import android.content.Intent;
-//import android.os.Bundle;
-//import android.view.View;
-//import android.widget.Button;
-//import android.widget.EditText;
-//import android.widget.RatingBar;
-//import android.widget.TextView;
-//import android.widget.Toast;
-//
-//import java.util.HashMap;
-//import java.util.Map;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.RatingBar;
+import android.widget.TextView;
+import android.widget.Toast;
+import java.util.HashMap;
+import java.util.Map;
 
 public class AddRate extends AppCompatActivity {
 
@@ -33,7 +32,7 @@ public class AddRate extends AppCompatActivity {
 //    float rateValue;
 //    String message;
 //    private TextView itemName1, ProductDis1;
-//
+////
 //    @Override
 //    protected void onCreate(Bundle savedInstanceState) {
 //
@@ -56,16 +55,7 @@ public class AddRate extends AppCompatActivity {
 //
 //               rateValue = RatingStar.getRating();
 //
-//               if (rateValue < 1 && rateValue > 0)
-//                    RateCount.setText("Very Sorry for your bad experience  " + rateValue + "/5");
-//               else if (rateValue < 2 && rateValue > 1)
-//                    RateCount.setText("Sorry for your experience  " + rateValue + "/5");
-//               else if (rateValue < 3 && rateValue > 2)
-//                    RateCount.setText("sorry  " + rateValue + "/5");
-//               else if (rateValue < 4 && rateValue > 3)
-//                    RateCount.setText("Happy about your experience  " + rateValue + "/5");
-//               else
-//                    RateCount.setText("Share with your friend, your experience  " + rateValue + "/5");
+//
 //           }
 //
 //        });
@@ -136,4 +126,3 @@ public class AddRate extends AppCompatActivity {
 //        startActivity(intent1);
 //    }
 }
-//
