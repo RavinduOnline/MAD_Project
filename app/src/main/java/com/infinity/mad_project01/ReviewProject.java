@@ -88,11 +88,6 @@ public class ReviewProject extends AppCompatActivity {
         finish();
     }
 
-    public void RateBtn(View view) {
-        Intent intent2 = new Intent(ReviewProject.this, AddRateMainActivity.class);
-        startActivity(intent2);
-    }
-
     public void CloseBtn(View view) {
         Intent intent3 = new Intent(ReviewProject.this, ReviewMainPage.class);
         startActivity(intent3);

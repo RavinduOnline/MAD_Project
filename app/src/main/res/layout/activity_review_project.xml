@@ -146,13 +146,18 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
-        android:layout_width="391dp"
-        android:layout_height="473dp"
-        app:layout_constraintBottom_toTopOf="@+id/bg"
+        android:layout_width="390dp"
+        android:layout_height="660dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="95dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/homeText" />
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.22" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
